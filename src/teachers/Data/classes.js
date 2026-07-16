@@ -1,0 +1,38 @@
+export const classes = [
+  {
+    id: 1,
+    subject: "Mathematics",
+    student: "Aarav Sharma",
+    grade: "Grade 8",
+    date: "08 Jul 2026",
+    time: "10:00 AM - 11:00 AM",
+    status: "Live",
+  },
+  {
+    id: 2,
+    subject: "Physics",
+    student: "Ananya Singh",
+    grade: "Grade 10",
+    date: "08 Jul 2026",
+    time: "02:00 PM - 03:00 PM",
+    status: "Upcoming",
+  },
+  {
+    id: 3,
+    subject: "English",
+    student: "Rohan Kumar",
+    grade: "Grade 7",
+    date: "09 Jul 2026",
+    time: "11:00 AM - 12:00 PM",
+    status: "Upcoming",
+  },
+  {
+    id: 4,
+    subject: "Chemistry",
+    student: "Meera Patel",
+    grade: "Grade 9",
+    date: "07 Jul 2026",
+    time: "03:00 PM - 04:00 PM",
+    status: "Completed",
+  },
+];
