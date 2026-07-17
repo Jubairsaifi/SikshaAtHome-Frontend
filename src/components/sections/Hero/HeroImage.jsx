@@ -22,7 +22,7 @@ const HeroImage = () => {
                 icon="💻"
                 title="Coding"
                 subtitle="Future Skills"
-                className="bottom-12 -right-10"
+                className="bottom-12 -right-5"
             />
 
             <FloatingCard

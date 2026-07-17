@@ -18,7 +18,7 @@ const Logo = () => {
                     Siksha
                 </h1>
 
-                <p className="text-sm text-blue-600 font-medium -mt-1">
+                <p className="text-sm text-purple-600 font-medium -mt-1">
                     At Home
                 </p>
             </div>

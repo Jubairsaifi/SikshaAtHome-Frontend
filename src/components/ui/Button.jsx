@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 const Button = ({
     children,
     variant = "primary",
-    size = "md",
+    size = "sm",
     className = "",
     ...props
 }) => {
     const variants = {
         primary:
-            "bg-blue-600 text-white hover:bg-blue-700 shadow-md hover:shadow-lg",
+            "bg-purple-600 text-white hover:bg-purple-700 shadow-md hover:shadow-lg",
 
         secondary:
-            "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white",
+            "border border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white",
 
         ghost:
             "text-slate-700 hover:bg-slate-100",

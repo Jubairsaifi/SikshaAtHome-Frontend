@@ -120,7 +120,7 @@ mb-4
                                             size={40}
 
                                             className="
-text-blue-600
+text-purple-600
 "
 
                                         />

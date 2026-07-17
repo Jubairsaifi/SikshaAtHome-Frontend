@@ -9,8 +9,8 @@ const TeacherCTA = () => {
         <section className="
         py-20
         bg-gradient-to-r
-        from-blue-600
-        to-indigo-700
+        from-purple-600
+        to-purple-700
         ">
 
             <div className="

@@ -13,7 +13,7 @@ const DesktopMenu = ({ onCourseHover }) => {
                     onMouseLeave={() => item.mega && onCourseHover(false)}
                 >
                     {item.mega ? (
-                        <button className="flex items-center gap-1 font-medium text-slate-700 hover:text-blue-600 transition">
+                        <button className="flex items-center gap-1 font-medium text-slate-700 hover:text-purple-600 transition">
                             {item.title}
                             <ChevronDown size={18} />
                         </button>
@@ -22,8 +22,8 @@ const DesktopMenu = ({ onCourseHover }) => {
                             to={item.path}
                             className={({ isActive }) =>
                                 `font-medium transition ${isActive
-                                    ? "text-blue-600"
-                                    : "text-slate-700 hover:text-blue-600"
+                                    ? "text-purple-600"
+                                    : "text-slate-700 hover:text-purple-600"
                                 }`
                             }
                         >

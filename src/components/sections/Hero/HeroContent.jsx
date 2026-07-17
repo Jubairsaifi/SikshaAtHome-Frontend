@@ -27,12 +27,12 @@ const HeroContent = () => {
                 initial={{ opacity: 0, y: 25 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-5xl lg:text-6xl font-extrabold leading-tight text-slate-900"
+                className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900"
             >
                 Learn Without
 
-                <span className="block text-blue-600">
-                    Limits.
+                <span className="block text-purple-600">
+                    Limits
                 </span>
             </motion.h1>
 

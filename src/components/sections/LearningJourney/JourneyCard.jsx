@@ -22,14 +22,14 @@ const JourneyCard = ({
                 whileHover={{
                     scale: 1.08,
                 }}
-                className="relative z-10 w-20 h-20 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-lg"
+                className="relative z-10 w-20 h-20 rounded-full bg-purple-600 text-white flex items-center justify-center shadow-lg"
             >
                 <Icon size={34} />
             </motion.div>
 
             {/* Step */}
 
-            <span className="mt-5 text-sm font-semibold text-blue-600">
+            <span className="mt-5 text-sm font-semibold text-purple-600">
                 STEP {step}
             </span>
 
