@@ -14,6 +14,7 @@ import ArtAndCraft from "../../assets/Art-and-Craft.jpg"
 import { Link } from "react-router-dom";
 import React, { useRef, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Button from "../ui/Button";
 
 
 const Teachers = [
@@ -148,7 +149,7 @@ const OurTeachers = () => {
                     {/* Left Button */}
                     <button
                         onClick={handlePrev}
-                        className={`absolute left-[-40px] top-1/2 -translate-y-1/2 p-3 rounded-full shadow-lg z-10 ${currentIndex === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-pink-500 text-white"
+                        className={`absolute left-[-40px] top-1/2 -translate-y-1/2 p-3 rounded-full shadow-lg z-10 ${currentIndex === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-purple-500 text-white"
                             }`}
                     >
                         <FaChevronLeft />
@@ -187,13 +188,14 @@ const OurTeachers = () => {
                                                     .replace(/\s+/g, "-")}`}
                                                 className="inline-block mt-4"
                                             >
-                                                <button
+                                                {/* <button
                                                     className="px-6 py-2 text-sm font-semibold text-white 
                        bg-pink-500 rounded-full
                        hover:bg-pink-600 transition-all duration-200 shadow-md"
                                                 >
                                                     Book a Free Demo
-                                                </button>
+                                                </button> */}
+                                                <Button>Book a Free Demo</Button>
                                             </Link>
                                         </div>
 
@@ -211,7 +213,7 @@ const OurTeachers = () => {
                         disabled={currentIndex >= 2}
                         className={`absolute right-[-40px] top-1/2 -translate-y-1/2 p-3 rounded-full shadow-lg z-10 ${currentIndex >= 2
                             ? "bg-gray-300 cursor-not-allowed"
-                            : "bg-pink-500 text-white"
+                            : "bg-purple-500 text-white"
                             }`}
                     >
                         <FaChevronRight />

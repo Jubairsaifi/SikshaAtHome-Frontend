@@ -1,39 +1,78 @@
-const faqData = [
+// const faqData = [
+//     {
+//         id: 1,
+//         question: "How do online classes work?",
+//         answer:
+//             "Students can select their preferred course and schedule. Our expert teachers conduct live interactive classes through online platforms."
+//     },
+
+//     {
+//         id: 2,
+//         question: "What subjects are available?",
+//         answer:
+//             "We provide classes for Mathematics, Science, Coding, Languages, Art & Craft and many more subjects for different grade levels."
+//     },
+
+//     {
+//         id: 3,
+//         question: "Can I take a demo class before joining?",
+//         answer:
+//             "Yes, students can book a demo class to understand the teaching style and choose the right teacher."
+//     },
+
+//     {
+//         id: 4,
+//         question: "How are teachers selected?",
+//         answer:
+//             "Every teacher goes through a profile verification process including qualification and teaching experience checks."
+//     },
+
+//     {
+//         id: 5,
+//         question: "How can I become a teacher?",
+//         answer:
+//             "Teachers can register through our teacher registration page and submit their profile details for approval."
+//     }
+// ];
+
+
+// export default faqData;
+
+export const faqData = [
     {
         id: 1,
         question: "How do online classes work?",
         answer:
-            "Students can select their preferred course and schedule. Our expert teachers conduct live interactive classes through online platforms."
+            "Students attend live one-on-one or small group classes through our interactive virtual classroom with screen sharing, whiteboard, and assignments.",
     },
-
     {
         id: 2,
-        question: "What subjects are available?",
+        question: "Do you provide a free trial class?",
         answer:
-            "We provide classes for Mathematics, Science, Coding, Languages, Art & Craft and many more subjects for different grade levels."
+            "Yes! Every student can book a completely free trial class before enrolling.",
     },
-
     {
         id: 3,
-        question: "Can I take a demo class before joining?",
+        question: "Which curriculum do you teach?",
         answer:
-            "Yes, students can book a demo class to understand the teaching style and choose the right teacher."
+            "We teach CBSE, ICSE, IB, IGCSE, Cambridge, and other international curricula.",
     },
-
     {
         id: 4,
-        question: "How are teachers selected?",
+        question: "Can I change my teacher?",
         answer:
-            "Every teacher goes through a profile verification process including qualification and teaching experience checks."
+            "Absolutely. If you're not satisfied, we'll help you switch to another teacher.",
     },
-
     {
         id: 5,
-        question: "How can I become a teacher?",
+        question: "Are classes recorded?",
         answer:
-            "Teachers can register through our teacher registration page and submit their profile details for approval."
-    }
+            "Yes, recordings can be provided for revision whenever applicable.",
+    },
+    {
+        id: 6,
+        question: "Do you teach coding and languages?",
+        answer:
+            "Yes. We offer Coding, AI, Robotics, Web Development, Python, Scratch, French, German, Spanish, Japanese, and more.",
+    },
 ];
-
-
-export default faqData;

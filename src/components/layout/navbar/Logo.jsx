@@ -14,7 +14,7 @@ const Logo = () => {
             />
 
             <div className="leading-tight">
-                <h1 className="text-xl font-bold text-slate-900">
+                <h1 className="text-xl font-bold text-white-900">
                     Siksha
                 </h1>
 

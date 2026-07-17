@@ -2,6 +2,8 @@ import Container from "../../ui/Container";
 import SectionHeading from "../../ui/SectionHeading";
 import CourseCard from "./CourseCard";
 import { courses } from "./courseData";
+import Carousel from "../../ui/Carousel";
+
 
 const PopularCourses = () => {
     return (
@@ -13,14 +15,16 @@ const PopularCourses = () => {
                     title="Explore Our Most Loved Courses"
                 />
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+                <div className="mt-12">
+                    <Carousel>
+                        {courses.map((course) => (
 
-                    {courses.map((course) => (
-                        <CourseCard
-                            key={course.id}
-                            course={course}
-                        />
-                    ))}
+                            <CourseCard
+                                key={course.id}
+                                course={course}
+                            />
+                        ))}
+                    </Carousel>
 
                 </div>
 

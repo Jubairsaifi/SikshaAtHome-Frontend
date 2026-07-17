@@ -18,6 +18,8 @@ import Footer from "../components/Footer/Footer";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import OurPopularCourses from "../components/PopularCourses/OurPopularCourses";
 import OurTeachers from "../components/OurTeachers/OurTeachers";
+import CTA from "../components/sections/CTA/CTA";
+import TeacherSection from "../components/sections/TalentedTeachers/TeacherSection";
 
 const BannerData = {
   image: Img1,
@@ -53,11 +55,13 @@ const Home = () => {
       {/* <Banner {...BannerData} />
       <Banner {...BannerData2} reverse={true} /> */}
       <SubjectCard />
-      <OurTeachers />
+      <TeacherSection />
+      {/* <OurTeachers /> */}
       {/* <Testimonial /> */}
       <Testimonials />
       <TeacherCTA />
       <FAQ />
+      <CTA />
       {/* <Footer /> */}
       {/* <Routes>
          <Route path="/" element={<Home />} />

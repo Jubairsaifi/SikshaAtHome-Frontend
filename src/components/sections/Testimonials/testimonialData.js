@@ -27,6 +27,15 @@ const testimonialData = [
         rating: 5,
         review:
             "The interactive classes and personalized learning approach make studying enjoyable."
+    },
+    {
+        id: 4,
+        name: "Rahul Verma",
+        role: "Grade 10 Student",
+        image: "/images/student3.png",
+        rating: 5,
+        review:
+            "The interactive classes and personalized learning approach make studying enjoyable."
     }
 ];
 
