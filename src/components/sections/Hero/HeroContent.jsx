@@ -69,6 +69,16 @@ const HeroContent = () => {
 
                 <Button
                     variant="secondary"
+                    onClick={() => {
+                        const element = document.getElementById("PopularCourses");
+
+                        if (element) {
+                            element.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                            });
+                        }
+                    }}
                 >
 
                     📚 Explore Courses

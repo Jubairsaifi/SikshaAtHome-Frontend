@@ -53,8 +53,8 @@ const ChemistryCourse = () => {
   return (
     <div className="bg-gray-50 text-gray-800 min-h-screen py-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-pink-50 via-yellow-50 to-green-50 py-20 px-6 md:px-16 text-center py-24">
-        <h1 className="text-4xl font-bold mb-4 text-pink-600">
+      <section className="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 py-20 px-6 md:px-16 text-center py-24">
+        <h1 className="text-4xl font-bold mb-4 text-purple-600">
           Explore the Wonders of Chemistry! 🧪
         </h1>
         <p className="text-gray-700 max-w-3xl mx-auto mb-8">
@@ -62,8 +62,8 @@ const ChemistryCourse = () => {
           Visualize complex concepts through 3D models, animations, and simulations.
           Experience the wonder of chemistry beyond textbooks — where learning meets innovation.
         </p>
-        <button className="bg-pink-600 text-white font-semibold px-6 py-3 
-        rounded-full shadow hover:bg-pink-700 transition"
+        <button className="bg-purple-600 text-white font-semibold px-6 py-3 
+        rounded-full shadow hover:bg-purple-700 transition"
           onClick={() => handleClick()}>
           Book a Free Chemistry Trial
         </button>
@@ -95,7 +95,7 @@ const ChemistryCourse = () => {
 
       {/* Branches of Chemistry */}
       <section className="py-20 px-6 md:px-16 text-center">
-        <h3 className="text-3xl font-bold text-pink-600 mb-12">
+        <h3 className="text-3xl font-bold text-purple-600 mb-12">
           Branches of Chemistry
         </h3>
         <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-8">

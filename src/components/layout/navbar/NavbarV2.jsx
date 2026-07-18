@@ -49,10 +49,12 @@ const NavbarV2 = () => {
                 </Container>
 
                 <div
+                    className="hidden lg:block"
                     onMouseEnter={() => setShowMega(true)}
                     onMouseLeave={() => setShowMega(false)}
                 >
-                    {showMega && <MegaMenu />}
+
+                    {showMega && <MegaMenu show={showMega} onClose={() => setShowMega(false)} />}
                 </div>
             </motion.header>
         </>

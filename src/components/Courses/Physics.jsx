@@ -47,7 +47,7 @@ const PhysicsCourse = () => {
   return (
     <div className="bg-white text-white min-h-screen py-24">
       {/* Hero Section */}
-      <section className="relative text-center bg-yellow-600 py-24">
+      <section className="relative text-center bg-purple-600 py-24">
         <h1 className="text-5xl font-extrabold mb-4 text-black">
           Explore. Experiment. Understand.
         </h1>
@@ -90,7 +90,7 @@ const PhysicsCourse = () => {
       </section>
 
       {/* Branches of Physics */}
-      <section className="bg-yellow-600 py-20 px-6 md:px-20 text-center">
+      <section className="bg-purple-600 py-20 px-6 md:px-20 text-center">
         <h3 className="text-3xl font-bold text-black mb-12">
           Branches of Physics You’ll Explore
         </h3>

@@ -6,20 +6,26 @@ const DesktopMenu = ({ onCourseHover }) => {
     return (
         <ul className="hidden lg:flex items-center gap-8">
             {navigation.map((item) => (
+                console.log("item", item),
+
                 <li
                     key={item.title}
                     className="relative"
-                    onMouseEnter={() => item.mega && onCourseHover(true)}
-                    onMouseLeave={() => item.mega && onCourseHover(false)}
+
+                // onMouseEnter={() => item.mega && onCourseHover(true)}
+                // onMouseLeave={() => item.mega && onCourseHover(false)}
                 >
                     {item.mega ? (
-                        <button className="flex items-center gap-1 font-medium text-slate-700 hover:text-purple-600 transition">
+                        <button
+                            onMouseEnter={() => onCourseHover(true)}
+                            className="flex items-center gap-1 font-medium text-slate-700 hover:text-purple-600 transition">
                             {item.title}
                             <ChevronDown size={18} />
                         </button>
                     ) : (
                         <NavLink
                             to={item.path}
+                            onMouseEnter={() => onCourseHover(false)}
                             className={({ isActive }) =>
                                 `font-medium transition ${isActive
                                     ? "text-purple-600"

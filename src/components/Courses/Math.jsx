@@ -41,7 +41,7 @@ const MathCourse = () => {
   return (
     <div className="bg-gray-50 text-gray-800 py-24">
       {/* Hero Section */}
-      <section className="bg-fuchsia-500 text-white py-20 px-6 md:px-16 text-center">
+      <section className="bg-purple-500 text-white py-20 px-6 md:px-16 text-center">
         <h1 className="text-4xl font-bold mb-4">Mathematics That Makes Sense!</h1>
         <p className="max-w-3xl mx-auto text-lg mb-8">
           Discover the power of numbers with interactive lessons, live practice, and real-world problem solving.
@@ -84,9 +84,9 @@ const MathCourse = () => {
           {topics.map((t, i) => (
             <div
               key={i}
-              className="p-6 rounded-xl shadow hover:shadow-lg transition border-t-4 border-fuchsia-800 bg-pink-50 text-center"
+              className="p-6 rounded-xl shadow hover:shadow-lg transition border-t-4 border-purple-800 bg-indigo-50 text-center"
             >
-              <div className="text-4xl text-fuchsia-800 mb-3 flex justify-center">{t.icon}</div>
+              <div className="text-4xl text-purple-800 mb-3 flex justify-center">{t.icon}</div>
               <h4 className="font-semibold text-lg text-bold text-gray-800 mb-2">{t.title}</h4>
               <p className="text-gray-600 text-sm">{t.desc}</p>
             </div>
@@ -128,7 +128,7 @@ const MathCourse = () => {
             { icon: <FaLightbulb />, title: "Concept Reinforcement", desc: "Interactive exercises ensure deep understanding of every topic." },
           ].map((item, i) => (
             <div key={i} className="p-8 bg-white rounded-2xl shadow hover:shadow-xl transition">
-              <div className="text-4xl mb-3 text-fuchsia-800 flex justify-center">{item.icon}</div>
+              <div className="text-4xl mb-3 text-purple-800 flex justify-center">{item.icon}</div>
               <h4 className="font-semibold text-xl mb-2">{item.title}</h4>
               <p className="text-gray-600 text-sm">{item.desc}</p>
             </div>
@@ -139,7 +139,7 @@ const MathCourse = () => {
       {/* FAQ Section */}
       <section className="py-16 px-6 md:px-20 bg-white">
         <h2 className="text-3xl font-bold text-center mb-6">
-          Frequently <span className="text-fuchsia-500">Asked</span> Questions
+          Frequently <span className="text-purple-500">Asked</span> Questions
         </h2>
         <div className="max-w-3xl mx-auto">
           {faqs.map((faq, i) => (

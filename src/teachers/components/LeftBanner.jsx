@@ -8,7 +8,7 @@ import teacherImage from "../assets/teacher.jpg";
 
 const LeftBanner = () => {
   return (
-    <div className="relative hidden lg:flex flex-col justify-between bg-gradient-to-br from-pink-900 via-pink-700 to-pink-500 text-white p-10 overflow-hidden">
+    <div className="relative hidden lg:flex flex-col justify-between bg-gradient-to-br from-purple-900 via-pink-purple to-purple-500 text-white p-10 overflow-hidden">
 
       {/* Background Blur */}
       <div className="absolute -top-24 -right-24 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>

@@ -1,30 +1,31 @@
-const TeacherBadge = ({
-    children,
-    color = "blue",
-}) => {
+import { Star, Briefcase } from "lucide-react";
 
-    const colors = {
-        blue: "bg-blue-100 text-blue-700",
-        green: "bg-green-100 text-green-700",
-        purple: "bg-purple-100 text-purple-700",
-        orange: "bg-orange-100 text-orange-700",
-    };
-
+const TeacherBadge = ({ rating, experience }) => {
     return (
-        <span
-            className={`
-                inline-flex
-                items-center
-                rounded-full
-                px-3
-                py-1
-                text-xs
-                font-semibold
-                ${colors[color]}
-            `}
-        >
-            {children}
-        </span>
+        <>
+            {/* Rating Badge */}
+
+            <div className="absolute left-4 top-4 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 shadow-md backdrop-blur-sm">
+                <Star
+                    size={16}
+                    className="fill-yellow-400 text-yellow-400"
+                />
+
+                <span className="text-sm font-semibold text-slate-800">
+                    {rating}
+                </span>
+            </div>
+
+            {/* Experience Badge */}
+
+            <div className="absolute right-4 top-4 flex items-center gap-2 rounded-full bg-purple-600 px-3 py-1 text-white shadow-lg">
+                <Briefcase size={14} />
+
+                <span className="text-sm font-medium">
+                    {experience}
+                </span>
+            </div>
+        </>
     );
 };
 

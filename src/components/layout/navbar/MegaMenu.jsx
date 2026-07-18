@@ -1,17 +1,19 @@
-import { courseMenu } from "../../../constants/navigation";
+import { navigation } from "../../../constants/navigation";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const MenuSection = ({ title, items }) => (
+const MenuSection = ({ title, items, onClose }) => (
     <div>
         <h3 className="text-lg font-bold text-slate-900 mb-4">{title}</h3>
+
 
         <div className="space-y-3">
             {items.map((item) => (
                 <Link
                     key={item.title}
                     to={item.path}
-                    className="block text-slate-600 hover:text-blue-600 transition"
+                    onClick={onClose}
+                    className="block text-slate-600 hover:text-purple-600 transition"
                 >
                     {item.title}
                 </Link>
@@ -20,7 +22,8 @@ const MenuSection = ({ title, items }) => (
     </div>
 );
 
-const MegaMenu = () => {
+const MegaMenu = ({ show, onClose }) => {
+    if (!show) return null;
     return (
         <motion.div
             initial={{ opacity: 0, y: 15 }}
@@ -35,17 +38,20 @@ const MegaMenu = () => {
 
                     <MenuSection
                         title="K-12 Courses"
-                        items={courseMenu.k12}
+                        items={navigation[1].children[0].items}
+                        onClose={onClose}
                     />
 
                     <MenuSection
                         title="Coding Courses"
-                        items={courseMenu.coding}
+                        items={navigation[1].children[1].items}
+                        onClose={onClose}
                     />
 
                     <MenuSection
                         title="Languages"
-                        items={courseMenu.language}
+                        items={navigation[1].children[2].items}
+                        onClose={onClose}
                     />
 
                 </div>
@@ -55,4 +61,4 @@ const MegaMenu = () => {
     );
 };
 
-export default MegaMenu;
+export default MegaMenu; 

@@ -68,7 +68,7 @@ const LoginForm = () => {
         {/* Logo */}
         <div className="flex justify-center">
           <div className="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center shadow-md">
-            <FaGraduationCap className="text-4xl text-pink-600" />
+            <FaGraduationCap className="text-4xl text-purple-600" />
           </div>
         </div>
 
@@ -157,7 +157,7 @@ const LoginForm = () => {
           {/* Login Button */}
           <button type="submit"
 
-            className="w-full py-4 rounded-xl bg-blue-600 hover:bg-pink-700 transition duration-300 text-white font-semibold shadow-lg hover:shadow-xl"
+            className="w-full py-4 rounded-xl bg-purple-600 hover:bg-purple-700 transition duration-300 text-white font-semibold shadow-lg hover:shadow-xl"
           >
             {loading ? "Signing In..." : "Login"}
           </button>

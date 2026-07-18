@@ -58,7 +58,7 @@ const FreeTrialForm = () => {
         { value: "economics", label: "Economics" },
         { value: "robotics", label: "Robotics" },
         { value: "scratch-programming", label: "Scratch Programming" },
-        { value: "web-development", label: "Web Development" },    
+        { value: "web-development", label: "Web Development" },
     ];
 
 
@@ -224,7 +224,7 @@ const FreeTrialForm = () => {
             <div className="flex flex-col md:flex-row justify-center items-stretch min-h-screen bg-gray-100 
                         my-16 md:my-24 rounded-2xl shadow-xl max-w-6xl mx-auto shadow-lg overflow-hidden">
                 {/* Left Section */}
-                <div className="md:w-1/2 bg-pink-400 text-white rounded-l-2xl flex flex-col justify-center p-10">
+                <div className="md:w-1/2 bg-purple-500 text-white rounded-l-2xl flex flex-col justify-center p-10">
                     <p className="bg-gray-800 text-sm px-3 py-1 rounded-full w-max mb-4 flex items-center gap-2 animate-bounce-slow">
                         <span>⏳</span> Hurry! Limited Time Offer
                     </p>
@@ -247,7 +247,7 @@ const FreeTrialForm = () => {
                             <div
                                 key={num}
                                 className={`w-8 h-8 rounded-full flex items-center justify-center mx-2 ${num === step
-                                    ? "bg-pink-500 text-white"
+                                    ? "bg-purple-500 text-white"
                                     : "bg-gray-300 text-gray-600"
                                     }`}
                             >
@@ -288,7 +288,7 @@ const FreeTrialForm = () => {
                                         className="w-full border rounded-md p-3"
                                     />
                                 </div>
-                                
+
                                 <div>
                                     <label className="block mb-1 font-medium">
                                         Country <span className="text-red-500">*</span>
@@ -357,7 +357,7 @@ const FreeTrialForm = () => {
                                         />
                                         <button
                                             type="button"
-                                            className="bg-pink-500 text-white px-4 rounded-r-md"
+                                            className="bg-purple-500 text-white px-4 rounded-r-md"
                                             onClick={() => handleEmailOTP()}
                                         >
                                             Send OTP

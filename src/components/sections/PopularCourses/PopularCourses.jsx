@@ -7,7 +7,7 @@ import Carousel from "../../ui/Carousel";
 
 const PopularCourses = () => {
     return (
-        <section className="py-24 bg-white">
+        <section id="PopularCourses" className="py-24 bg-white">
             <Container>
 
                 <SectionHeading

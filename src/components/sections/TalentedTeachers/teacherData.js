@@ -17,6 +17,9 @@ export const teachers = [
         image: teacher1,
         boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
+        students: "1200+",
+        classes: "3500+",
+        country: "United Kingdom"
     },
     {
         id: 2,
@@ -28,6 +31,9 @@ export const teachers = [
         image: teacher2,
         boards: ["Python", "Web Dev"],
         featured: false,
+        students: "1400+",
+        classes: "3200+",
+        country: "United States"
     },
     {
         id: 3,
@@ -39,6 +45,9 @@ export const teachers = [
         image: teacher3,
         boards: ["IELTS", "Spoken English"],
         featured: true,
+        students: "800+",
+        classes: "2400+",
+        country: "India"
     },
     {
         id: 4,
@@ -50,6 +59,9 @@ export const teachers = [
         image: teacher4,
         boards: ["IELTS", "Spoken English"],
         featured: true,
+        students: "500+",
+        classes: "2500+",
+        country: "Uk"
     },
     {
         id: 5,
@@ -61,6 +73,8 @@ export const teachers = [
         image: teacher5,
         boards: ["IELTS", "Spoken English"],
         featured: true,
+        classes: "1500+",
+        country: "India"
     },
     {
         id: 6,
@@ -72,6 +86,8 @@ export const teachers = [
         image: teacher6,
         boards: ["IELTS", "Spoken English"],
         featured: true,
+        classes: "2800+",
+        country: "Philippines"
     },
     {
         id: 7,
@@ -83,5 +99,7 @@ export const teachers = [
         image: teacher7,
         boards: ["IELTS", "Spoken English"],
         featured: true,
+        classes: "500+",
+        country: "India"
     },
 ];
