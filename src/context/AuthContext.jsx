@@ -45,8 +45,6 @@ export const AuthProvider = ({ children }) => {
         setTeacher(data.teacher);
         setToken(savedToken);
       } catch (err) {
-        console.log(err);
-
         localStorage.removeItem("teacherToken");
 
         delete API.defaults.headers.common["Authorization"];

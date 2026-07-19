@@ -106,4 +106,15 @@ export const courses = [
         link: "/business-studies",
         color: "green",
     },
+    {
+        id: 6,
+        title: "Reasoning",
+        description: "Explore concepts through practical learning",
+        level: "Grade 4–10",
+        students: "1,800+",
+        rating: 4.8,
+        popular: false,
+        link: "/reasoning",
+        color: "purple",
+    },
 ];

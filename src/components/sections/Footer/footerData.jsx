@@ -13,7 +13,7 @@ export const quickLinks = [
 ];
 
 export const courses = [
-    { title: "Mathematics", link: "/mathematics" },
+    { title: "Mathematics", link: "/explore-k-12-courses" },
     { title: "Coding", link: "/explore-coding-courses" },
     { title: "Languages", link: "/explore-language-courses" },
     { title: "English", link: "/english-speaking" },

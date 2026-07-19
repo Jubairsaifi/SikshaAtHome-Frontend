@@ -1,7 +1,6 @@
 import { Users, BookOpen, Globe } from "lucide-react";
 
 const TeacherStats = ({ teacher }) => {
-    console.log("TeacherStats:", teacher);
     return (
         <div className="mt-6 space-y-3">
 

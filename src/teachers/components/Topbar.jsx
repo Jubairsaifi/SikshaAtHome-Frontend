@@ -8,9 +8,7 @@ import {
 
 const Topbar = () => {
   // const [teacher, setTeacher] = useState(null);
- const { teacher } = useAuth();
- console.log("teacher",teacher);
- 
+  const { teacher } = useAuth();
   // useEffect(() => {
   //   const teacherData = JSON.parse(localStorage.getItem("teacher"));
 
@@ -63,7 +61,7 @@ const Topbar = () => {
 
           <div className="hidden md:block text-left">
             <h3 className="font-semibold text-gray-800">
-                {teacher?.name || "Teacher"}
+              {teacher?.name || "Teacher"}
             </h3>
 
             <p className="text-xs text-gray-500">

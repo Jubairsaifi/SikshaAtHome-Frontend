@@ -139,7 +139,7 @@ const MathCourse = () => {
       {/* FAQ Section */}
       <section className="py-16 px-6 md:px-20 bg-white">
         <h2 className="text-3xl font-bold text-center mb-6">
-          Frequently <span className="text-purple-500">Asked</span> Questions
+          Frequently <span className="text-pur-500">Asked</span> Questions
         </h2>
         <div className="max-w-3xl mx-auto">
           {faqs.map((faq, i) => (

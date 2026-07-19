@@ -6,8 +6,6 @@ const DesktopMenu = ({ onCourseHover }) => {
     return (
         <ul className="hidden lg:flex items-center gap-8">
             {navigation.map((item) => (
-                console.log("item", item),
-
                 <li
                     key={item.title}
                     className="relative"

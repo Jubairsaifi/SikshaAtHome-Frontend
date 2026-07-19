@@ -7,14 +7,11 @@ const RecentTeachers = () => {
     const fetchTeachers = async () => {
         try {
             const { data } = await API.get("/admin/recent-teachers");
-            console.log("recent teacher", data);
-
-
             if (data.success) {
                 setTeachers(data.teachers);
             }
         } catch (error) {
-            console.log(error);
+
         }
     };
 

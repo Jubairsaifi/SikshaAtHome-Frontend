@@ -41,7 +41,7 @@ const TeacherCTA = () => {
                     ">
                         Become a Teacher
                         <br />
-                        With Siksha At Home
+                        At Math Lead
                     </h2>
 
 
@@ -63,7 +63,7 @@ const TeacherCTA = () => {
                     ">
 
                         <Link
-                            to="/teacher/register"
+                            to="/become-a-teacher"
                             className="
                         bg-white
                         text-blue-600
@@ -78,7 +78,7 @@ const TeacherCTA = () => {
                         </Link>
 
 
-                        <Link
+                        {/* <Link
                             to="/teachers"
                             className="
                         border
@@ -93,7 +93,7 @@ const TeacherCTA = () => {
                         "
                         >
                             Learn More
-                        </Link>
+                        </Link> */}
 
                     </div>
 

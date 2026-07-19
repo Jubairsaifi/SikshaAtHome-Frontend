@@ -9,7 +9,7 @@ const Features = () => {
             <Container>
                 <SectionHeading
                     subtitle="Why Choose Us"
-                    title="Why Students Love Siksha At Home"
+                    title="Why Students Love Math Lead"
                 />
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">

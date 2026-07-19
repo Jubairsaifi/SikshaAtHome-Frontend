@@ -46,9 +46,6 @@ const LoginForm = () => {
           "teacherToken",
           response.data.token
         );
-        console.log("Navigating...");
-
-
         navigate("/teacher/dashboard");
       }
     } catch (err) {

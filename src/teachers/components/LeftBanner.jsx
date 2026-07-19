@@ -17,7 +17,7 @@ const LeftBanner = () => {
       {/* Logo */}
       <div className="z-10">
         <h2 className="text-3xl font-bold">
-          Shiksha <span className="text-pink-200">At Home</span>
+          Math <span className="text-pink-200">Lead</span>
         </h2>
 
         <p className="text-pink-100 mt-2">

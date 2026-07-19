@@ -47,7 +47,7 @@ const TeacherCard = ({ teacher }) => {
                 <TeacherStats teacher={teacher} />
 
                 <button
-                    className="mt-6 w-full rounded-xl bg-slate-900 py-3 font-semibold text-white transition hover:bg-purple-600"
+                    className="mt-6 w-full rounded-xl bg-purple-700 py-3 font-semibold text-white transition hover:bg-purple-900"
                 >
                     View Profile
                 </button>

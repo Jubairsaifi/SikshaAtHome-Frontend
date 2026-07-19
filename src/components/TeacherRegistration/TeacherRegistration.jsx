@@ -147,7 +147,7 @@ const TeacherRegistration = () => {
   };
 
 
-  
+
   return (
     <div className="min-h-screen py-12 flex justify-center py-20">
       <form
@@ -347,7 +347,7 @@ const TeacherRegistration = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition"
+              className="bg-purple-600 text-white font-semibold px-8 py-3 rounded-lg transition"
             >
               Submit
             </button>

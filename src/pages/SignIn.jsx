@@ -3,9 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
   const navigate = useNavigate();
-  const handleItemClick = () =>{
-    console.log("inside");
-    
+  const handleItemClick = () => {
     navigate("/register");
   }
   return (

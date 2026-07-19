@@ -60,11 +60,7 @@ const AdminClasses = () => {
                     limit: 100,
                 },
             });
-            console.log("STUDENTS API RESPONSE:", data);
-
-
             if (data.success) {
-                console.log("STUDENTS:", data.students);
                 setStudents(data.students);
             }
         } catch (error) {

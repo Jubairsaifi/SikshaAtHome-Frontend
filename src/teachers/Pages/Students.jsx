@@ -1,7 +1,7 @@
 import { students } from "../data/students";
 import { FaSearch, FaPlus } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import  API  from "../../api"
+import API from "../../api"
 
 const Students = () => {
   const [students, setStudents] = useState([]);
@@ -15,8 +15,6 @@ const Students = () => {
   const fetchStudents = async () => {
     try {
       const { data } = await API.get("/students");
-      console.log("stundet Data", data);
-      
       setStudents(data.students);
     } catch (error) {
       console.error(error);

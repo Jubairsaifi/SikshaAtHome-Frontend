@@ -30,7 +30,6 @@ const AdminDashboard = () => {
                 setStats(data.stats);
             }
         } catch (error) {
-            console.log(error);
         } finally {
             setLoading(false);
         }
@@ -95,10 +94,10 @@ const AdminDashboard = () => {
             <div className="grid lg:grid-cols-2 gap-6 mt-8">
 
                 <RecentTeachers />
-                <RecentStudents/>
+                <RecentStudents />
 
             </div>
-            <RecentDemoRequests/>
+            <RecentDemoRequests />
 
         </div>
     );

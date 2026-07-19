@@ -6,7 +6,7 @@ const testimonialData = [
         image: "/images/student1.png",
         rating: 5,
         review:
-            "Siksha At Home helped me understand Mathematics concepts easily. My confidence has improved a lot."
+            "Math Lead helped me understand Mathematics concepts easily. My confidence has improved a lot."
     },
 
     {
