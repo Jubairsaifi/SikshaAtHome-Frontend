@@ -20,6 +20,7 @@ import OurPopularCourses from "../components/PopularCourses/OurPopularCourses";
 import OurTeachers from "../components/OurTeachers/OurTeachers";
 import CTA from "../components/sections/CTA/CTA";
 import TeacherSection from "../components/sections/TalentedTeachers/TeacherSection";
+import CoursesPage from "./Courses/CoursesPage";
 
 const BannerData = {
   image: Img1,
@@ -48,6 +49,7 @@ const Home = () => {
       <Features />
       <PopularCourses />
       <LearningJourney />
+      <CoursesPage />
       <TrustStats />
       {/* <OurPopularCourses /> */}
       {/* <NumberCounter /> */}

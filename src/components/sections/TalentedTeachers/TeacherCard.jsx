@@ -18,7 +18,7 @@ const TeacherCard = ({ teacher }) => {
                 <img
                     src={teacher.image}
                     alt={teacher.name}
-                    className="h-72 w-full object-cover transition duration-500 group-hover:scale-110"
+                    className="h-80 w-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-1"
                 />
 
                 <TeacherBadge

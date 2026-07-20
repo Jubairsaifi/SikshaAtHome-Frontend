@@ -63,6 +63,8 @@ import Teachers from "./admin/Pages/Teachers";
 import TeacherDetails from "./admin/Pages/TeacherDetails";
 import AdminStudents from "./admin/Pages/Students";
 import AdminClasses from "./admin/Pages/Classes";
+import CourseDetails from "./pages/CourseDetails/CourseDetails";
+import TeacherProfile from "./pages/TeacherProfile/TeacherProfile";
 const App = () => {
   useEffect(() => {
     if ("scrollRestoration" in window.history) {
@@ -129,6 +131,15 @@ const App = () => {
           <Route path="/explore-language-courses/japanese" element={<JapaneseLanguageCourse />} />
           <Route path="/explore-language-courses/IELTS-TOEFL" element={<IELTS_TOEFL_Course />} />
           <Route path="/explore-language-courses/hindi" element={<HindiCourse />} />
+
+          <Route
+            path="/courses/:id"
+            element={<CourseDetails />}
+          />
+          <Route
+            path="/teachers/:id"
+            element={<TeacherProfile />}
+          />
 
           <Route path="/teacher/login" element={<TeacherLogin />} />
           <Route path="/teacher" element={<ProtectedTeacherRoute> <TeacherLayout /> </ProtectedTeacherRoute>}>

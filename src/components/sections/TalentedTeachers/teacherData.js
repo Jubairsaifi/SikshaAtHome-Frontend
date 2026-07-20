@@ -19,7 +19,29 @@ export const teachers = [
         featured: true,
         students: "1200+",
         classes: "3500+",
-        country: "United Kingdom"
+        country: "UK",
+        qualification: "M.Sc Mathematics",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 2,
@@ -29,11 +51,33 @@ export const teachers = [
         students: "900+",
         rating: 4.8,
         image: teacher2,
-        boards: ["Python", "Web Dev"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: false,
         students: "1400+",
         classes: "3200+",
-        country: "United States"
+        country: "USA",
+        qualification: "B.Tech (CSE)",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals!",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 3,
@@ -43,11 +87,33 @@ export const teachers = [
         students: "1500+",
         rating: 5.0,
         image: teacher3,
-        boards: ["IELTS", "Spoken English"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
         students: "800+",
         classes: "2400+",
-        country: "India"
+        country: "India",
+        qualification: "B.Sc Mathematics",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 4,
@@ -57,11 +123,33 @@ export const teachers = [
         students: "1500+",
         rating: 5.0,
         image: teacher4,
-        boards: ["IELTS", "Spoken English"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
         students: "500+",
         classes: "2500+",
-        country: "Uk"
+        country: "Uk",
+        qualification: "B.Sc, M.Sc Mathematics",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 5,
@@ -71,10 +159,32 @@ export const teachers = [
         students: "1500+",
         rating: 5.0,
         image: teacher5,
-        boards: ["IELTS", "Spoken English"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
         classes: "1500+",
-        country: "India"
+        country: "India",
+        qualification: "M.Sc Mathematics, English",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals!",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 6,
@@ -84,10 +194,32 @@ export const teachers = [
         students: "1500+",
         rating: 5.0,
         image: teacher6,
-        boards: ["IELTS", "Spoken English"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
         classes: "2800+",
-        country: "Philippines"
+        country: "Philippines",
+        qualification: "M.Sc Mathematics",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals!",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
     {
         id: 7,
@@ -97,9 +229,31 @@ export const teachers = [
         students: "1500+",
         rating: 5.0,
         image: teacher7,
-        boards: ["IELTS", "Spoken English"],
+        boards: ["CBSE", "ICSE", "IGCSE"],
         featured: true,
         classes: "500+",
-        country: "India"
+        country: "India",
+        qualification: "M.Sc Mathematics",
+        bio: "Welcome! I'm [Your Name], an experienced [Subject] educator from [City/Location]. I specialize in helping students in grades [Grade Levels] build confidence and master core concepts through engaging, personalized lessons. I believe every student learns differently, which is why I focus on [Teaching Approach, e.g., hands-on activities, interactive problem-solving]. Let's work together to achieve your academic goals!",
+        reviews: [
+            {
+                student: "Rahul Sharma",
+                rating: 5,
+                comment:
+                    "Excellent teacher! Concepts were explained very clearly.",
+            },
+            {
+                student: "Emily Watson",
+                rating: 5,
+                comment:
+                    "Very patient and interactive teaching style.",
+            },
+            {
+                student: "Aarav Gupta",
+                rating: 4,
+                comment:
+                    "The worksheets and doubt sessions were extremely helpful.",
+            },
+        ],
     },
 ];

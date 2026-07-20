@@ -52,8 +52,6 @@ const Footer = () => {
                         <div className="space-y-3">
 
                             {quickLinks.map((item) => (
-                                console.log("inside quick llink", quickLinks),
-
                                 <NavLink
                                     key={item.title}
                                     to={item.link}
